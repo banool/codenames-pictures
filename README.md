@@ -15,6 +15,15 @@ A hosted version of the app is available at [codenames.dport.me](https://codenam
 ## How to run this yourself
 Firstly, make sure you have go installed. There are good resources for this [on](https://ahmadawais.com/install-go-lang-on-macos-with-homebrew/) [the](https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-18-04) [net](https://www.reddit.com/r/golang/comments/79nnq2/go_development_using_wsl_in_win_10/). 
 
+### Docker Instructions
+```
+# Build
+docker build -t codenames-pictures .
+
+# Make sure docker-compose is installed
+docker-compose up -d --build
+```
+
 ### Just installing
 These instructions will just grab the binary for you:
 ```
