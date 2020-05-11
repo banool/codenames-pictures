@@ -5,7 +5,7 @@ COPY . /app
 WORKDIR /app
 
 # Get the go app
-RUN go get -u github.com/banool/codenames-pictures
+RUN go get -u github.com/davidMGS/codenames-pictures
 
 # Build backend
 RUN go build cmd/codenames/main.go

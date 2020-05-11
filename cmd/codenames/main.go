@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/banool/codenames-pictures"
+	"github.com/davidMGS/codenames-pictures"
 )
 
 const DEFAULT_PORT = "9001"
