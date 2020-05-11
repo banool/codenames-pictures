@@ -1,5 +1,5 @@
 var settingToggles = [
-    {name: 'Color-blind mode', setting: 'colorBlind', defaultValue: false},
+    {name: 'Color-blind mode', setting: 'colorBlind', defaultValue: true},
     {name: 'Expand on mouse-over', setting: 'expandOnMouseOver', defaultValue: false},
     {name: 'Stretch images to fit square', setting: 'fitImagesToDiv', defaultValue: true},
 ]

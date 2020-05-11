@@ -19,13 +19,13 @@ Firstly, make sure you have go installed. There are good resources for this [on]
 These instructions will just grab the binary for you:
 ```
 cd $GOPATH
-go get github.com/banool/codenames-pictures/...
-go install github.com/banool/codenames-pictures/...
+go get github.com/davidMGS/codenames-pictures/...
+go install github.com/davidMGS/codenames-pictures/...
 ```
 You'll still need to set up dependencies following this:
 ```
 cd bin
-ln -s ../src/github.com/banool/codenames-pictures/assets_codenames
+ln -s ../src/github.com/davidMGS/codenames-pictures/assets_codenames
 ./codenames
 ```
 
@@ -36,19 +36,19 @@ Now go follow the instructions for adding images below.
 If you plan to make changes, you'll want to grab the source and build it yourself:
 ```
 cd $GOPATH
-go get github.com/banool/codenames-pictures/...
-cd src/github.com/banool/codenames-pictures
+go get github.com/davidMGS/codenames-pictures/...
+cd src/github.com/davidMGS/codenames-pictures
 # To build the server code.
-go build github.com/banool/codenames-pictures/...
+go build github.com/davidMGS/codenames-pictures/...
 # To build the binary.
-go build github.com/banool/codenames-pictures/cmd/...
+go build github.com/davidMGS/codenames-pictures/cmd/...
 # Run the binary.
 ./codenames
 ```
 
 I just use this little one liner for the last three steps:
 ```
-go build github.com/banool/codenames-pictures/... && go build github.com/banool/codenames-pictures/cmd/... && ./codenames 9000; rm codenames
+go build github.com/davidMGS/codenames-pictures/... && go build github.com/davidMGS/codenames-pictures/cmd/... && ./codenames 9000; rm codenames
 ```
 
 You can optionally specify a port (the default is 9001):

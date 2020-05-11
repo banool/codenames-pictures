@@ -139,7 +139,7 @@
     }
 }
 
-.board .imgcell.revealed { opacity: .6; }
+.board .imgcell.revealed { opacity: .2; }
 
 .overlay {
     position: absolute;
