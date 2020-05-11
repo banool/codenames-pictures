@@ -5,3 +5,5 @@ services:
     build: .
     ports:
       - "9091:9091"
+    volumes:
+      - ./assets_codenames:/app/assets_codenames
